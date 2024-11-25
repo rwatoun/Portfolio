@@ -1,22 +1,38 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
+import { images } from "../../constants";
 import "./About.scss";
 
 const abouts = [
-  { title: "Web dev", description: "I am a good web dev", imgUrl: "" },
-  { title: "Web design", description: "I am a good design dev", imgUrl: "" },
-  { title: "Backend", description: "I am a good backend dev", imgUrl: "" },
-  { title: "DevOps", description: "I am a good devops eng", imgUrl: "" },
+  {
+    title: "Web dev",
+    description: "I am a good web dev",
+    imgUrl: images.about01,
+  },
+  {
+    title: "Web design",
+    description: "I am a good design dev",
+    imgUrl: images.about02,
+  },
+  {
+    title: "Backend",
+    description: "I am a good backend dev",
+    imgUrl: images.about03,
+  },
+  {
+    title: "DevOps",
+    description: "I am a good devops eng",
+    imgUrl: images.about04,
+  },
 ];
 
 const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I know that
-        <span>Good Design</span> <br />
-        means <span>Good Business</span>
+        {" "}
+        I know that <span>Good Development</span> <br /> means{" "}
+        <span>Good Business</span>{" "}
       </h2>
 
       <div className="app__profiles">
