@@ -29,7 +29,7 @@ const Footer = () => {
     setLoading(true);
 
     const contact = {
-      type: "contact",
+      _type: "contact",
       name: name,
       message: message,
     };
