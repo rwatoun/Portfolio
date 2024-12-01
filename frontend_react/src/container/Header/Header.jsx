@@ -27,42 +27,20 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text"> Hello, I am</p>
-              <h1 className="head-text"> Marwa </h1>
+              <img src={images.profile} />
             </div>
           </div>
           <div className="tag-cmp app_flex">
-            <p className="p-text"> Web Developer</p>
-            <p className="p-text"> DevOps Engineer</p>
+            <p className="p-text">
+              {" "}
+              Marwa is a software engineer with a keen interest in solving
+              problems and creating impactful solutions. She combines her love
+              for technology with a deep commitment to volunteering and
+              community involvement, striving to make a positive difference
+              through innovation and collaboration.
+            </p>
           </div>
         </div>
-      </motion.div>
-
-      <motion.div
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 0.5, delayChildren: 0.5 }}
-        className="app__header-img"
-      >
-        <img src={images.profile} alt="profile_bg" />
-        <motion.img
-          whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          src={images.circle}
-          alt="profile_circle"
-          className="overlay_circle"
-        ></motion.img>
-      </motion.div>
-
-      <motion.div
-        variant={scaleVariants}
-        whileInView={scaleVariants.whileInView}
-        className="app__header-circles"
-      >
-        {[images.flutter, images.redux, images.sass].map((circle, index) => (
-          <div className="circle-cmp app_flex" key={`circle-$(index)`}>
-            <img src={circle} alt="circle" />
-          </div>
-        ))}
       </motion.div>
     </div>
   );
