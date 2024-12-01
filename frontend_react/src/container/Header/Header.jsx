@@ -24,20 +24,13 @@ const Header = () => {
         className="app__header-info"
       >
         <div className="app__header-badge">
-          <div className="badge-cmp app__flex">
-            <span>👋</span>
-            <div style={{ marginLeft: 20 }}>
-              <img src={images.profile} />
-            </div>
-          </div>
           <div className="tag-cmp app_flex">
-            <p className="p-text">
+            <p className="p-text" style={{ fontSize: 60 }}>
+              Marwa Hammani
+            </p>
+            <p className="p-text" style={{ fontSize: 15 }}>
               {" "}
-              Marwa is a software engineer with a keen interest in solving
-              problems and creating impactful solutions. She combines her love
-              for technology with a deep commitment to volunteering and
-              community involvement, striving to make a positive difference
-              through innovation and collaboration.
+              Software Engineering Student
             </p>
           </div>
         </div>

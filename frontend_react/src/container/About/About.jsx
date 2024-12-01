@@ -17,8 +17,8 @@ const About = () => {
     <>
       <h2 className="head-text">
         {" "}
-        I know that <span>Good Development</span> <br /> means{" "}
-        <span>Good Business</span>{" "}
+        Who says you can't manage <span>Kubernetes clusters</span> <br /> and a{" "}
+        <span>campus workshop</span> in the same day?{" "}
       </h2>
 
       <div className="app__profiles">
