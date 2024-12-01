@@ -15,7 +15,7 @@ const Projects = () => {
 
   // fetching data from sanity
   useEffect(() => {
-    const query = '*[_type == "works"]';
+    const query = '*[_type == "projects"]';
     client.fetch(query).then((data) => {
       setWorks(data);
       setFilterWork(data);
