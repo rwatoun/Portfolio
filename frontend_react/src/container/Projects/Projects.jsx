@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 
-import "./Work.scss";
+import "./Projects.scss";
 
-const Work = () => {
+const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const [works, setWorks] = useState([]);
@@ -121,7 +121,7 @@ const Work = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Work, "app__works"),
-  "work",
+  MotionWrap(Projects, "app__works"),
+  "projects",
   "app__primarybg"
 );
