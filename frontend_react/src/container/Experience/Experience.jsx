@@ -23,7 +23,7 @@ const Experience = () => {
 
   return (
     <>
-      <h2 className="head-text">Skills and Experience</h2>
+      <h2 className="head-text">Experience and Skills</h2>
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {skills.map((skill) => (

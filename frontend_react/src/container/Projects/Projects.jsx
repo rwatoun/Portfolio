@@ -42,7 +42,7 @@ const Projects = () => {
     <>
       <h2 className="head-text">
         {" "}
-        My creative <span>Portfolio</span> <br /> Section{" "}
+        My creative <span>Projects</span> <br />{" "}
       </h2>
       <div className="app__work-filter">
         {["UI/UX", "Web App", "Mobile App", "React Js", "All"].map(

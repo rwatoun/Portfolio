@@ -1,9 +1,9 @@
 #home {
   position: relative;
-  // background-image: url("../../assets/profile.png");
-  // background-size: cover;
-  // background-repeat: repeat;
-  // background-position: top;
+  background-image: url("../../assets/profile.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: top;
 
   .app__wrapper {
     padding: 0;
@@ -54,41 +54,33 @@
   height: 100%;
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0;
 
   .tag-cmp {
-    flex: 1;
-    justify-content: flex-start;
-    padding: 1rem 2rem;
+    flex: 3;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-bottom: 20px;
     width: auto;
     height: auto;
-  }
-
-  .tag-cmp-img {
-    position: relative;
-    flex: 2;
-    height: 100%;
-
-    img {
-      position: absolute;
-      bottom: 0; /* Aligns the image to the bottom */
-      left: 50%;
-      transform: translateX(-60%);
-      max-width: 100%;
-      height: auto;
+    h3 {
+      color: #41434c;
     }
   }
 
-  .tag-cmp-2 {
-    flex: 1;
-    //padding: 1rem 2rem;
+  .tag-cmp1 {
+    flex: 2;
+    height: 100%;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    width: auto;
+    padding-left: 140px;
+    padding-right: 160px;
+
+    p {
+      color: #41434c;
+    }
   }
 
   span {

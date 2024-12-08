@@ -25,27 +25,15 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="tag-cmp app_flex">
-            <h3 className="head-text" style={{ textAlign: "left" }}>
-              Welcome
-            </h3>
-            <br />
-            <br />
-            <h3 className="head-text" style={{ textAlign: "right" }}>
-              To
+            <h3 className="head-text" style={{ fontSize: "140px" }}>
+              Marwa Hammani
             </h3>
           </div>
-          <div className="tag-cmp-img app_flex">
-            <img src={images.profile} />
-          </div>
-          <div className="tag-cmp-2 app_flex">
-            <h3 className="head-text" style={{ textAlign: "left" }}>
-              Marwa's
-            </h3>
-            <br />
-            <br />
-            <h3 className="head-text" style={{ textAlign: "right" }}>
-              Portfolio
-            </h3>
+          <div className="tag-cmp1 app_flex">
+            <p className="p-text" style={{ fontSize: "20px" }}>
+              A software engineering student with a knack for problem solving,
+              UI design, and impactful technology.
+            </p>
           </div>
         </div>
       </motion.div>
