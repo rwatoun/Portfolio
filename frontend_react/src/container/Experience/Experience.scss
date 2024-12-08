@@ -33,12 +33,16 @@
 }
 
 .app__skills-item {
+  display: flex;
   flex-direction: column;
   text-align: center;
   margin: 1rem;
   transition: all 0.3s ease-in-out;
 
   div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -47,6 +51,7 @@
     img {
       width: 50%;
       height: 50%;
+      object-fit: contain;
     }
 
     &:hover {
