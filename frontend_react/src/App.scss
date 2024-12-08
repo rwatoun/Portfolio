@@ -52,6 +52,7 @@
 }
 
 .head-text {
+  font-family: var(--font-base);
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
@@ -72,6 +73,7 @@
 }
 
 .p-text {
+  font-family: var(--font-base);
   font-size: 0.8rem;
   text-align: left;
   color: var(--gray-color);
@@ -83,6 +85,7 @@
 }
 
 .bold-text {
+  font-family: var(--font-base);
   font-size: 1rem;
   font-weight: 800;
   color: var(--black-color);

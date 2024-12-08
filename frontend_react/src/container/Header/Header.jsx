@@ -17,7 +17,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div className="app__header app__flex">
+    <div className="app__header app__flex ">
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
@@ -25,13 +25,27 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="tag-cmp app_flex">
-            <p className="p-text" style={{ fontSize: 60 }}>
-              Marwa Hammani
-            </p>
-            <p className="p-text" style={{ fontSize: 15 }}>
-              {" "}
-              Software Engineering Student
-            </p>
+            <h3 className="head-text" style={{ textAlign: "left" }}>
+              Welcome
+            </h3>
+            <br />
+            <br />
+            <h3 className="head-text" style={{ textAlign: "right" }}>
+              To
+            </h3>
+          </div>
+          <div className="tag-cmp-img app_flex">
+            <img src={images.profile} />
+          </div>
+          <div className="tag-cmp-2 app_flex">
+            <h3 className="head-text" style={{ textAlign: "left" }}>
+              Marwa's
+            </h3>
+            <br />
+            <br />
+            <h3 className="head-text" style={{ textAlign: "right" }}>
+              Portfolio
+            </h3>
           </div>
         </div>
       </motion.div>
