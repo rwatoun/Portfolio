@@ -56,8 +56,8 @@ const Experience = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
-                      data-tip
-                      data-for={work.name}
+                      data-tooltip-id={work.name} // Attach the tooltip here
+                      data-tooltip-content={work.desc} // Pass content dynamically
                       key={work.name}
                     >
                       <h4 className="bold-text">{work.name}</h4>
@@ -68,9 +68,7 @@ const Experience = () => {
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
-                    >
-                      {work.desc}
-                    </Tooltip>
+                    ></Tooltip>
                   </>
                 ))}
               </motion.div>
