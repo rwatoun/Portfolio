@@ -5,6 +5,11 @@
   background-repeat: repeat;
   background-position: top;
 
+  @media screen and (max-width: 2000px) {
+    width: 100%;
+    margin-right: 0rem;
+  }
+
   .app__wrapper {
     padding: 0;
 
